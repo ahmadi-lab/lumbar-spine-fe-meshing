@@ -1,0 +1,8 @@
+*.asv
+*.autosave
+Clean_STL/*.stl
+Clean_mesh/*.mat
+Clean_VTK/*.vtk
+!Clean_STL/.gitkeep
+!Clean_mesh/.gitkeep
+!Clean_VTK/.gitkeep

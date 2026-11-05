@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Lumbar Spine FE Meshing"
+type: software
+authors:
+  - family-names: Ahmadi
+    given-names: Mohsen
+preferred-citation:
+  type: article
+  title: "Streamlined and efficient patient-specific modeling for lumbar spine segmentation and finite element analysis"
+  journal: "Scientific Reports"
+  volume: 15
+  start: 35619
+  year: 2025
+  doi: 10.1038/s41598-025-19664-6
+  authors:
+    - family-names: Ahmadi
+      given-names: Mohsen
+    - family-names: Chen
+      given-names: Hanxi
+    - family-names: Lin
+      given-names: Maohua
+    - family-names: Biswas
+      given-names: Debojit
+    - family-names: Doulgeris
+      given-names: James
+    - family-names: Tang
+      given-names: Yufei
+    - family-names: Engeberg
+      given-names: Erik D.
+    - family-names: Hashemi
+      given-names: Javad
+    - family-names: Pires
+      given-names: Gui
+    - family-names: Vrionis
+      given-names: Frank D.
