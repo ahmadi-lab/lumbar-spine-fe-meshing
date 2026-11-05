@@ -8,6 +8,7 @@ MATLAB workflow for building cortical, cancellous and intervertebral disc meshes
 
 | Path | Description |
 |---|---|
+| [`GUIDE.md`](GUIDE.md) | Step-by-step user guide |
 | `Main code.mlx` | Geometry and meshing workflow |
 | `Main_code_export.m` | Plain-text copy of the live script |
 | `data/libSurf/` | Input surfaces `L1`-`L5` and `D12`-`D45` (variables `F`, `V`) |
