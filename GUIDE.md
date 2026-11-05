@@ -52,6 +52,17 @@ The workflow uses `surfaceMeshSize = 0.5`, `cancellousMeshSize = 1.5` and `corti
 
 Save each surface as a MAT file with faces `F` and vertices `V` in `data/libSurf`, using the names `L1`-`L5` and `D12`-`D45`. `docs/stl_to_libsurf.m` converts one STL file; edit its two path lines for each surface.
 
+To create these files from segmentation images, use `preprocessing/labels_to_surfaces.py`:
+
+```bash
+pip install -r preprocessing/requirements.txt
+python preprocessing/labels_to_surfaces.py --vertebrae labels.seg.nrrd --discs discs.nii.gz --out output
+```
+
+The vertebra image needs one integer label per level, by default 1 to 5 from L1 to L5. The disc image is a binary mask. NRRD and NIfTI files are supported. The script writes one STL and one MAT file per surface. Copy the MAT files to `data/libSurf`.
+
+The stored surfaces in `data/libSurf` are the reference inputs. Surfaces from this script are similar, but they are not identical to the stored files.
+
 ## 6. Troubleshooting
 
 | Message | Solution |

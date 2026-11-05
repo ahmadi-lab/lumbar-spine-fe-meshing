@@ -15,6 +15,7 @@ MATLAB workflow for building cortical, cancellous and intervertebral disc meshes
 | `save_data.mat` | Stored meshes of all 26 model parts |
 | `verify_article_meshes.m` | Compares `save_data.mat` with Table 2 of the article |
 | `setup_paths.m` | Adds GIBBON and this repository to the MATLAB path |
+| `preprocessing/` | Python script that creates surfaces from segmentation images |
 | `docs/`, root `.m` files | Helper functions |
 | `lib/graphicsModels.m` | GIBBON function extended with the model names above |
 
