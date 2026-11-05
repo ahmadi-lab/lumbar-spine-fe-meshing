@@ -61,7 +61,7 @@ python preprocessing/labels_to_surfaces.py --vertebrae labels.seg.nrrd --discs d
 
 The vertebra image needs one integer label per level, by default 1 to 5 from L1 to L5. The disc image is a binary mask. NRRD and NIfTI files are supported. The script writes one STL and one MAT file per surface. Copy the MAT files to `data/libSurf`.
 
-The stored surfaces in `data/libSurf` are the reference inputs. Surfaces from this script are similar, but they are not identical to the stored files.
+The surfaces in `data/libSurf` are the reference inputs. Results from this script can vary slightly with the smoothing settings.
 
 ## 6. Troubleshooting
 
