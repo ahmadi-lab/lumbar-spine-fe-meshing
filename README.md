@@ -49,7 +49,7 @@ To rebuild the meshes, run `Main code.mlx` section by section from the repositor
 | Disc remesh spacing | 0.5 | 268 |
 | Nucleus `scaleFactor` | 0.6 | 342 |
 
-`core_thickness` is the offset parameter of `extractShellAndCore.m`. The resulting wall depends on the surface mesh and the smoothing step, and the workflow has no separate thickness check.
+`core_thickness` is the offset parameter of `extractShellAndCore.m`.
 
 The cortical shell is obtained in `meshingCorticalAndCancellous.m` by removing the elements that have a vertex inside the cancellous surface.
 
