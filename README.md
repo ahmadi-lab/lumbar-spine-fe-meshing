@@ -59,7 +59,7 @@ The cortical shell is obtained in `meshingCorticalAndCancellous.m` by removing t
 
 ## Data
 
-The input surfaces are included. Image data are not part of this repository.
+The input surfaces are included. They were exported from the segmentations as STL files in 3D Slicer and converted with `docs/stl_to_libsurf.m`. Image data are not part of this repository.
 
 ## License
 
